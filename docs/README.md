@@ -17,28 +17,45 @@ Use the switches to reset, start or change the level of the game.
 Repository structure
 
 HoleInTheWall: main Vivado project
+
 	Vivado project:
+	
 	HoleInTheWall.v: top level design, instantiates block diagram and other sources.
+	
 	Hole_wrapper: HDL wrapper for block diagram.
+	
 	display.v: seven segment display controller.
+	
 	debounce.v: push button debouncer.
+	
 SDK project:
+
 	prototype/src
+	
 	MicroblazeController.c: main program, contains game flow control.
-	audioip.h:
-	cameraConfig.h:
-	config.h:
-	create_wall.h:
-	ImgProc_config.h:
+	
+	audioip.h:API to the audio interface and music
+	
+	cameraConfig.h:Configuration for the camera	
+	
+	create_wall.h:API that hold all the functions of creating wall and generating the random holes.
+	
+	ImgProc_config.h:Configuration for the Image processing block and LUT of the algorithms.
+	
 	lscript.ld: C linker.
-	platform.h:
-	vdmaConfig:
+	
+	platform.h:Generated Xilinx Uart configuration
+	
+	vdmaConfig:Configuration for the VDMA Block
+	
 	prototype_bsp: generated Board Support Package files.
 
 Authors
 
 GUSTAVO MAIA FERREIRA
+
 HEYANG WANG
+
 JOAO MARCUS RAMOS BACALHAU
 
 
