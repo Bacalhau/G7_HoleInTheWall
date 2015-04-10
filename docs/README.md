@@ -3,7 +3,7 @@ HOLE IN THE WALL
 DESCRIPTION
 
 Nowadays, almost every gaming platform has some kind of video feedback that enhances the interaction with the game. Games franchises like Just Dance, miCoach and Wii Sports are becoming more attractive because they offer not only a different interface to play but also a new form of exercise at home. Developing a game using image processing on a FPGA is a relevant task since many of the current Kinect sensors perform part of the image processing on embedded systems. This pre-processing has the advantage of removing part of the processing from the main processor of the platform.
-The main idea of this project is to re-create a Japanese game show called “Nokabe”, known in the West as “Avoid the Wall” or “Hole in the Wall”. In this game, a player must avoid a wall that comes towards him. The only way to do that is to fit on different shapes and sizes of holes on the wall. 
+The main idea of this project is to re-create a Japanese game show called 'Nokabe', known in the West as 'Avoid the Wall' or 'Hole in the Wall'. In this game, a player must avoid a wall that comes towards him. The only way to do that is to fit on different shapes and sizes of holes on the wall. 
 In order to reach this objective, a Nexys 4 DDR board is used. This board contains a Xilinx Artix-7 FPGA, which is connected to OV7670 camera module and a VGA monitor. 
 
 
@@ -39,7 +39,7 @@ Authors
 
 GUSTAVO MAIA FERREIRA
 HEYANG WANG
-JOÃO MARCUS RAMOS BACALHAU
+JOAO MARCUS RAMOS BACALHAU
 
 
 
