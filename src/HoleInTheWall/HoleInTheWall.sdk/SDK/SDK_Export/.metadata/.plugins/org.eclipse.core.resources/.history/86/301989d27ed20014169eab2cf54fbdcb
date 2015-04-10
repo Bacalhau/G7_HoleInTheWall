@@ -1,0 +1,321 @@
+/**
+* ----------- IMAGE PROCESSING BLOCK CONFIGURATION  --------------
+*
+* REGISTERS TO WRITE
+*
+*1) ImgProc[0]: address of Image 1 - first input
+*2) ImgProc[1]: address of Image 2 - second input
+*3) ImgProc[2]: address of Image 3 - output
+* These values are updated at the beginning of each frame processing. They are not changed during the frame processing.
+*
+*4) ImgProc[3]: Writing
+*
+*|31------------28|27------------24|23------------20|19------------16|15------------12|11-------------8|7------------0|
+*| Image 1 pixel  | Image 2 pixel  | Image 3 pixel 1| Image 3 pixel 2| Image 3 pixel 3| Image 3 pixel 4|    nothing   |
+*How to write
+*ImgProc[3]: 0xABCDEFGH
+*A: pixel value of image 1 (video from camera)
+*B: pixel value of image 2 (wall)
+*C: pixel value of image 3 result from the operation between A and B+0
+*D: pixel value of image 3 result from the operation between A and B+1
+*E: pixel value of image 3 result from the operation between A and B+2
+*F: pixel value of image 3 result from the operation between A and B+3
+*G: 0 - nothing
+*H: 0 - nothing
+*
+*5) ImgProc[4]: Enable writing. Writing is performed only if bit 0 is high
+*
+*6) ImgProc[5]: control register
+*|31-------------3|   2   |   1   |   0   |
+*|    nothing     |  Op   | Mode  | Enable|
+*Op = Operation to perform. If 0, add two images. If 1, perform operation defined by writing ImgProc[3] (custom operation).
+*Mode = Mode of operation. If 0, perform operation over 1 frame and stops. If 1, runs continuously
+*Enable = Enable
+*
+*How to use it:
+*a) Call configuration function to define an operation. Matlab code generates the core of this code for different cement parameters
+*b) Write registers 0, 1 and 2 - pointers for video image, wall image and output image. Maybe create a function for that here.
+*c) Pulse Enable and configure block. Example:
+*	ImgProc[5] = 0;
+*	ImgProc[5] = 0x111;
+*	ImgProc[5] = 0x110;
+*(For custom operation, run continuously)
+*d) If the block is not needed, ensure that ImgProc[5] = 0. Also ensure this at the beginning of the code. Maybe create a function stopImgProc().
+*e) If triple buffering is not applied, only need to update ImgProc[1] with the new wall image.
+*f) If Microblaze needs to write an image into the memory, stop this block.
+*
+
+Example:
+...
+int main(){
+	...
+	ImgProc[5] = 0; // ensure block is stopped
+	...
+	processing(); // write configuration
+	...
+	ImgProc[0] = 0x80000000; // camera
+	ImgProc[1] = 0x80200000; // wall
+	ImgProc[2] = 0x84000000; // output: image in the middle of memory (ensure no conflict with walls for now)
+
+	while(1) // main loop
+	{
+		ImgProc[5] = 0; // ensure bit 0 is zero
+		...
+		// generate walls, etc
+		...
+		ImgProc[1] = 0x80400000; // update wall
+		ImgProc[5] = 0; // ensure bit 0 is zero
+		ImgProc[5] = 0x111; // pulse bit 0 to 1, set bit 1 high (run constantly), set bit 2 high (perform operation)
+		ImgProc[5] = 0x110; // finish bit 0 pulse, keep other bits the same
+		// change TFT image pointer for master IP output
+		*AR = 0x84000000;
+		...
+	}
+}
+
+* UPDATE - FOR HOLEINTHEWALL 9 AND UP
+*
+* ImgProc[6]: status register - read only
+*|31-------------1|   0   |
+*|    nothing     | Idle  |
+* Bit 0 is HIGH if block is IDLE, i.e. have not started running yet or have finished processing a frame
+* To be used with processor polling
+
+*/
+
+volatile unsigned int * ImgProc = (unsigned int*) XPAR_IMGPROC_0_S00_AXI_BASEADDR;
+
+void processing (){
+
+	ImgProc[4] = 0x1;
+
+	ImgProc[3] = 0x00012300;
+	ImgProc[3] = 0x04456700;
+	ImgProc[3] = 0x0889ab00;
+	ImgProc[3] = 0x0ccdef00;
+	ImgProc[3] = 0x10112300;
+	ImgProc[3] = 0x14456700;
+	ImgProc[3] = 0x1889ab00;
+	ImgProc[3] = 0x1ccdef00;
+	ImgProc[3] = 0x20223400;
+	ImgProc[3] = 0x24456700;
+	ImgProc[3] = 0x2889ab00;
+	ImgProc[3] = 0x2ccdef00;
+	ImgProc[3] = 0x30334400;
+	ImgProc[3] = 0x34567800;
+	ImgProc[3] = 0x3899ab00;
+	ImgProc[3] = 0x3ccdef00;
+	ImgProc[3] = 0x40444500;
+	ImgProc[3] = 0x44667800;
+	ImgProc[3] = 0x489abc00;
+	ImgProc[3] = 0x4cdeff00;
+	ImgProc[3] = 0x50555600;
+	ImgProc[3] = 0x54678900;
+	ImgProc[3] = 0x589abc00;
+	ImgProc[3] = 0x5cdeff00;
+	ImgProc[3] = 0x60666700;
+	ImgProc[3] = 0x64788900;
+	ImgProc[3] = 0x68abcd00;
+	ImgProc[3] = 0x6cdeff00;
+	ImgProc[3] = 0x70777800;
+	ImgProc[3] = 0x74899a00;
+	ImgProc[3] = 0x78bbcd00;
+	ImgProc[3] = 0x7cefff00;
+	ImgProc[3] = 0x80888900;
+	ImgProc[3] = 0x8499ab00;
+	ImgProc[3] = 0x88bcde00;
+	ImgProc[3] = 0x8cefff00;
+	ImgProc[3] = 0x90999900;
+	ImgProc[3] = 0x94aabb00;
+	ImgProc[3] = 0x98cdde00;
+	ImgProc[3] = 0x9cffff00;
+	ImgProc[3] = 0xa0aaaa00;
+	ImgProc[3] = 0xa4bbcc00;
+	ImgProc[3] = 0xa8ddef00;
+	ImgProc[3] = 0xacffff00;
+	ImgProc[3] = 0xb0bbbb00;
+	ImgProc[3] = 0xb4ccdd00;
+	ImgProc[3] = 0xb8eeff00;
+	ImgProc[3] = 0xbcffff00;
+	ImgProc[3] = 0xc0cccc00;
+	ImgProc[3] = 0xc4ddde00;
+	ImgProc[3] = 0xc8efff00;
+	ImgProc[3] = 0xccffff00;
+	ImgProc[3] = 0xd0dddd00;
+	ImgProc[3] = 0xd4eeef00;
+	ImgProc[3] = 0xd8ffff00;
+	ImgProc[3] = 0xdcffff00;
+	ImgProc[3] = 0xe0eeee00;
+	ImgProc[3] = 0xe4ffff00;
+	ImgProc[3] = 0xe8ffff00;
+	ImgProc[3] = 0xecffff00;
+	ImgProc[3] = 0xf0ffff00;
+	ImgProc[3] = 0xf4ffff00;
+	ImgProc[3] = 0xf8ffff00;
+	ImgProc[3] = 0xfcffff00;
+
+	ImgProc[4] = 0x0;
+
+	//PRINT("Finished Image Processing configuration\n");
+}
+
+/** ------ UPDATE - THRESHOLD FILTER CONFIGURATION -----------
+*
+*The first configuration (threshold_mask) applies the threshold filter over the video frame. If there is a person, the pixel becomes white. Otherwise is black.
+*
+*The second configuration (threshold_interaction) applies the threshold filter over the video frame and compares it to the wall image.
+*The image that results from this operation is an image with different values when person hits the wall and when person is inside the hole for each pixel.
+*The code is generated via Matlab.
+*
+*Default: background is considered fully white (4-bit pixel value 15)
+*
+*/
+
+void threshold_mask (){
+	
+	ImgProc[4] = 0x1;
+	
+	ImgProc[3] = 0x00ffff00;
+	ImgProc[3] = 0x04ffff00;
+	ImgProc[3] = 0x08ffff00;
+	ImgProc[3] = 0x0cffff00;
+	ImgProc[3] = 0x10ffff00;
+	ImgProc[3] = 0x14ffff00;
+	ImgProc[3] = 0x18ffff00;
+	ImgProc[3] = 0x1cffff00;
+	ImgProc[3] = 0x20ffff00;
+	ImgProc[3] = 0x24ffff00;
+	ImgProc[3] = 0x28ffff00;
+	ImgProc[3] = 0x2cffff00;
+	ImgProc[3] = 0x30ffff00;
+	ImgProc[3] = 0x34ffff00;
+	ImgProc[3] = 0x38ffff00;
+	ImgProc[3] = 0x3cffff00;
+	ImgProc[3] = 0x40ffff00;
+	ImgProc[3] = 0x44ffff00;
+	ImgProc[3] = 0x48ffff00;
+	ImgProc[3] = 0x4cffff00;
+	ImgProc[3] = 0x50ffff00;
+	ImgProc[3] = 0x54ffff00;
+	ImgProc[3] = 0x58ffff00;
+	ImgProc[3] = 0x5cffff00;
+	ImgProc[3] = 0x60ffff00;
+	ImgProc[3] = 0x64ffff00;
+	ImgProc[3] = 0x68ffff00;
+	ImgProc[3] = 0x6cffff00;
+	ImgProc[3] = 0x70000000;
+	ImgProc[3] = 0x74000000;
+	ImgProc[3] = 0x78000000;
+	ImgProc[3] = 0x7c000000;
+	ImgProc[3] = 0x80000000;
+	ImgProc[3] = 0x84000000;
+	ImgProc[3] = 0x88000000;
+	ImgProc[3] = 0x8c000000;
+	ImgProc[3] = 0x90000000;
+	ImgProc[3] = 0x94000000;
+	ImgProc[3] = 0x98000000;
+	ImgProc[3] = 0x9c000000;
+	ImgProc[3] = 0xa0000000;
+	ImgProc[3] = 0xa4000000;
+	ImgProc[3] = 0xa8000000;
+	ImgProc[3] = 0xac000000;
+	ImgProc[3] = 0xb0000000;
+	ImgProc[3] = 0xb4000000;
+	ImgProc[3] = 0xb8000000;
+	ImgProc[3] = 0xbc000000;
+	ImgProc[3] = 0xc0000000;
+	ImgProc[3] = 0xc4000000;
+	ImgProc[3] = 0xc8000000;
+	ImgProc[3] = 0xcc000000;
+	ImgProc[3] = 0xd0000000;
+	ImgProc[3] = 0xd4000000;
+	ImgProc[3] = 0xd8000000;
+	ImgProc[3] = 0xdc000000;
+	ImgProc[3] = 0xe0000000;
+	ImgProc[3] = 0xe4000000;
+	ImgProc[3] = 0xe8000000;
+	ImgProc[3] = 0xec000000;
+	ImgProc[3] = 0xf0000000;
+	ImgProc[3] = 0xf4000000;
+	ImgProc[3] = 0xf8000000;
+	ImgProc[3] = 0xfc000000;
+	
+	ImgProc[4] = 0x0;
+	
+}
+
+void threshold_interaction (){
+	
+	ImgProc[4] = 0x1;
+	
+	ImgProc[3] = 0x00f88800;
+	ImgProc[3] = 0x04888800;
+	ImgProc[3] = 0x08888800;
+	ImgProc[3] = 0x0c888800;
+	ImgProc[3] = 0x10f88800;
+	ImgProc[3] = 0x14888800;
+	ImgProc[3] = 0x18888800;
+	ImgProc[3] = 0x1c888800;
+	ImgProc[3] = 0x20f88800;
+	ImgProc[3] = 0x24888800;
+	ImgProc[3] = 0x28888800;
+	ImgProc[3] = 0x2c888800;
+	ImgProc[3] = 0x30f88800;
+	ImgProc[3] = 0x34888800;
+	ImgProc[3] = 0x38888800;
+	ImgProc[3] = 0x3c888800;
+	ImgProc[3] = 0x40f88800;
+	ImgProc[3] = 0x44888800;
+	ImgProc[3] = 0x48888800;
+	ImgProc[3] = 0x4c888800;
+	ImgProc[3] = 0x50f88800;
+	ImgProc[3] = 0x54888800;
+	ImgProc[3] = 0x58888800;
+	ImgProc[3] = 0x5c888800;
+	ImgProc[3] = 0x60f88800;
+	ImgProc[3] = 0x64888800;
+	ImgProc[3] = 0x68888800;
+	ImgProc[3] = 0x6c888800;
+	ImgProc[3] = 0x70000000;
+	ImgProc[3] = 0x74000000;
+	ImgProc[3] = 0x78000000;
+	ImgProc[3] = 0x7c000000;
+	ImgProc[3] = 0x80000000;
+	ImgProc[3] = 0x84000000;
+	ImgProc[3] = 0x88000000;
+	ImgProc[3] = 0x8c000000;
+	ImgProc[3] = 0x90000000;
+	ImgProc[3] = 0x94000000;
+	ImgProc[3] = 0x98000000;
+	ImgProc[3] = 0x9c000000;
+	ImgProc[3] = 0xa0000000;
+	ImgProc[3] = 0xa4000000;
+	ImgProc[3] = 0xa8000000;
+	ImgProc[3] = 0xac000000;
+	ImgProc[3] = 0xb0000000;
+	ImgProc[3] = 0xb4000000;
+	ImgProc[3] = 0xb8000000;
+	ImgProc[3] = 0xbc000000;
+	ImgProc[3] = 0xc0000000;
+	ImgProc[3] = 0xc4000000;
+	ImgProc[3] = 0xc8000000;
+	ImgProc[3] = 0xcc000000;
+	ImgProc[3] = 0xd0000000;
+	ImgProc[3] = 0xd4000000;
+	ImgProc[3] = 0xd8000000;
+	ImgProc[3] = 0xdc000000;
+	ImgProc[3] = 0xe0000000;
+	ImgProc[3] = 0xe4000000;
+	ImgProc[3] = 0xe8000000;
+	ImgProc[3] = 0xec000000;
+	ImgProc[3] = 0xf0000000;
+	ImgProc[3] = 0xf4000000;
+	ImgProc[3] = 0xf8000000;
+	ImgProc[3] = 0xfc000000;
+	
+	ImgProc[4] = 0x0;
+	
+}
+
+
+

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Fri Apr 03 12:12:23 2015
+# Process ID: 3352
+# Log file: C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/vivado.log
+# Journal file: C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Vivadoprojects\HoleInTheWall11\HoleInTheWall9\HoleInTheWall\HoleInTheWall.xpr}
+launch_sdk -workspace C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml
+launch_sdk -workspace C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml

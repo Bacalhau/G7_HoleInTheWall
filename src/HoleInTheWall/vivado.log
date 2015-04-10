@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Fri Apr 10 17:43:07 2015
+# Process ID: 3660
+# Log file: C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/vivado.log
+# Journal file: C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\JoãoMarcus\Desktop\HoleInTheWall_FINAL\HoleInTheWall\HoleInTheWall.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/IP', nor could it be found using path 'C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/IP'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/UofT/Digital_Systems_Design/HoleInTheWall6', nor could it be found using path 'C:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall6'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/UofT/Digital_Systems_Design/HoleInTheWall6', nor could it be found using path 'C:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall6'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/IP', nor could it be found using path 'C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/IP'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'display_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'debounce_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'Hole_wrapper_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/IP/board_repository', nor could it be found using path 'C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/IP/board_repository'.
+CRITICAL WARNING: [Project 1-474] The board_part definition was not found for 'digilentinc.com:nexys4_ddr:part0:1.1', the project's board_part value will not be set. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2014.1/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-2325] Could not find the IP definition for IP 'Hole_myip_song_0_0' in the IP Catalog. Attempting to load the user repositories that were used when that IP was generated, to see if the definition is there. The user repositories being added are:
+    c:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall6
+
+CRITICAL WARNING: [IP_Flow 19-2328] The specified repository 'c:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall6' could not be found, so it will not be added.
+CRITICAL WARNING: [IP_Flow 19-2327] Loaded the user repositories that were used when the IP was generated. Still cannot find the IP definition for IP 'Hole_myip_song_0_0'. Some of this IP's features have been disabled.
+CRITICAL WARNING: [IP_Flow 19-2325] Could not find the IP definition for IP 'Hole_I2C_Config_0_0' in the IP Catalog. Attempting to load the user repositories that were used when that IP was generated, to see if the definition is there. The user repositories being added are:
+    c:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall6
+
+CRITICAL WARNING: [IP_Flow 19-2328] The specified repository 'c:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall6' could not be found, so it will not be added.
+CRITICAL WARNING: [IP_Flow 19-2327] Loaded the user repositories that were used when the IP was generated. Still cannot find the IP definition for IP 'Hole_I2C_Config_0_0'. Some of this IP's features have been disabled.
+CRITICAL WARNING: [IP_Flow 19-2325] Could not find the IP definition for IP 'Hole_ImgProc_0_0' in the IP Catalog. Attempting to load the user repositories that were used when that IP was generated, to see if the definition is there. The user repositories being added are:
+    c:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP
+
+CRITICAL WARNING: [IP_Flow 19-2328] The specified repository 'c:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/IP' could not be found, so it will not be added.
+CRITICAL WARNING: [IP_Flow 19-2327] Loaded the user repositories that were used when the IP was generated. Still cannot find the IP definition for IP 'Hole_ImgProc_0_0'. Some of this IP's features have been disabled.
+WARNING: [BD 41-1303] One or more IPs have been locked in the design 'Hole.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 945.359 ; gain = 154.703
+launch_sdk -workspace C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

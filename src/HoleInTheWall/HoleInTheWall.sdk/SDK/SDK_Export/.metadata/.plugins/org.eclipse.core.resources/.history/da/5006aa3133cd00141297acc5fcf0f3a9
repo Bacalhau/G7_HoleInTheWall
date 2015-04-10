@@ -1,0 +1,154 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xparameters.h"
+#include "create_wall.h"//Library that deals with the  Wall and diferent screens.
+#include "audioip.h"//Library for the audio output
+
+//Definitions
+#define PRINT xil_printf
+void print(char *str);
+
+// Global Variables
+volatile unsigned int * memptr = (unsigned int*) XPAR_MIG_7SERIES_0_BASEADDR;// Pointer to the external memory
+volatile unsigned int * AR = (unsigned int*) XPAR_TFT_0_BASEADDR;//TFT CONFIGURE PARAMETER
+volatile unsigned int * CR = (unsigned int*) XPAR_TFT_0_BASEADDR + 0x4;//TFT CONFIGURE PARAMETER
+
+
+///// TO BE PUT IN A LIBRARY OR BETTER ORGANIZED
+#include "config.h"
+volatile unsigned int * vdma = (unsigned int*) XPAR_AXI_VDMA_0_BASEADDR;
+///// END
+
+int main()
+{
+	//Main Variables
+	int j=0,i=0,image_width_step=0,image_height_step=0,image_x=0,image_y=0;
+	int hole_x=0,hole_width=0,hole_height=0,level=0;
+
+	volatile unsigned int * open_screen = memptr + 1*IMG_SIZE;
+	volatile unsigned int * image_wall = memptr + 2*IMG_SIZE;
+
+	//END of Main Variables
+
+	//Configurations and first calculations
+	ImgProc[5] = 0;
+	init_platform();
+	//*(AR+1)=0;
+	//Configurations (new)
+	config_OV7670();
+	processing();
+	//mem[0] = 0xA81e10;
+
+	/*
+	PRINT("0\n");
+	// TO BE ORGANIZED
+	//*(AR+1)=0;
+	ImgProc[5] = 0;
+	*AR = 0x80800000;//output;
+	PRINT("1\n");
+	//erase_memory(memptr,5);*/
+	PRINT("Write\n");
+	*(AR+1)=1;
+	*AR = (unsigned int)open_screen;
+	for (i = 0; i < IMG_SIZE; i++) {
+		open_screen[i] = i;//0x00400000;
+		}
+	//PRINT("ab");
+/*
+	//*(AR+1)=1;
+	vdma[12] = 0x0000000B;
+	vdma[43] = 0x80000000;
+	vdma[42] = 4*1024;
+	vdma[41] = 4*640;
+	vdma[40] = 512;
+	*(AR+1)=1;
+	PRINT("2\n");
+	//for (i=0; i<20000000; i++);
+	//PRINT("aaa");
+	ImgProc[0] = 0x80000000;
+	ImgProc[1] = 0x80200000;
+	ImgProc[2] = 0x80800000;
+	//*AR = 0x80200000;//output;
+	//PRINT("aa");
+
+	//ImgProc[5] = 0;
+	//ImgProc[5] = 0x111;
+	//ImgProc[5] = 0x110;
+	PRINT("3\n");
+	//while(1){
+
+	//ImgProc[5] = 0x010;
+	/*for (i=0; i<10000000; i++){}
+	ImgProc[5] = 0;
+	for (i=0; i<10000000; i++){}
+	}
+	for (i=0; i<40000000; i++){}
+	ImgProc[5] = 0;
+	// END*/
+	PRINT("4\n");
+	*(AR+1)=1;
+	ImgProc[5] = 0;
+	PRINT("5\n");
+	//erase_memory(memptr,10);
+
+	PRINT("6\n");
+	//ImgProc[5] = 0x011;
+	//ImgProc[5] = 0x010;
+
+	image_height_step=original_frame_height/image_step;
+	image_width_step=original_frame_width/image_step;
+
+	initial_screen(open_screen);
+
+	level=0;
+	//END of Configurations and first calculations
+
+	song5();
+
+
+	while(1)
+	{
+	PRINT("RAND: %d\n",rand());
+
+    hole_x=hole_x_codinate(original_frame_width-240);  // the original width of the frame is 640
+	hole_width=adjust_hole_width(original_hole_width,level);   //160 is the original_width
+	hole_height=adjust_hole_height(original_hole_height,level);  //240 is the original height
+
+
+	*AR = (unsigned int)open_screen;
+	//ImgProc[1] = *open_screen;
+
+	PRINT("open_screen\n");
+	for(i=0;i<=image_step;i++)
+		{
+		image_wall = memptr + ((10+i)*IMG_SIZE);
+		image_x=320-(i*image_width_step)/2;
+		image_y=240-(i*image_height_step)/2;
+		create_wall(image_x,image_y,i*image_height_step,i*image_width_step,image_wall,hole_x,hole_width,hole_height);
+
+		}
+
+
+	for(i=0;i<=image_step;i++)
+	{
+		image_wall = memptr + ((10+i)*IMG_SIZE);
+		*AR = (unsigned int)(image_wall);
+		//ImgProc[1] = *image_wall;
+		for ( j = 0; j< 5000000; j++)//wait
+			{
+
+			}
+	}
+	for ( j = 0; j< 500000; j++)//wait
+				{
+
+				}
+
+	*AR = (unsigned int)open_screen;
+	//ImgProc[1] = *open_screen;
+	}
+
+ 	PRINT("End of Main\n");
+	return 0;//RETURN OF MAIN
+}//END OF MAIN
+

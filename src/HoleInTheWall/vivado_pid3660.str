@@ -1,0 +1,108 @@
+/*
+
+Vivado v2014.1 (64-bit)
+SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+Process ID: 3660
+
+Current time: 	4/10/15 5:43:18 PM
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	E:/Xilinx/Vivado/2014.1/tps/win64/jre
+
+User name: 	JoãoMarcus
+User directory: C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall
+User country: 	CA
+User language: 	en
+User locale: 	en_CA
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 368 mb
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 1s
+// TclEventType: START_PROGRESS_DIALOG
+// cm:O (cg:JFrame):  Opening project 'C:\Users\JoãoMarcus\Desktop\HoleInTheWall_FINAL\HoleInTheWall\HoleInTheWall.xpr' : addNotify
+// Tcl Message: open_project {C:\Users\JoãoMarcus\Desktop\HoleInTheWall_FINAL\HoleInTheWall\HoleInTheWall.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PACKAGER_MESSAGE_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 424 MB (GUI used memory: 26 MB). Current time: 4/10/15 5:43:21 PM
+// TclEventType: PACKAGER_MESSAGE_RESET
+// [GUI Memory]: 28 mb (+27242kb) [00:00:20]
+// [Engine Memory]: 446 mb (+316484kb) [00:00:20]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 483 MB (GUI used memory: 23 MB). Current time: 4/10/15 5:43:41 PM
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 31 mb (+3279kb) [00:00:43]
+// [Engine Memory]: 513 mb (+70131kb) [00:00:43]
+// [GUI Memory]: 48 mb (+17455kb) [00:00:45]
+// [Engine Memory]: 519 mb (+5812kb) [00:00:45]
+// [Engine Memory]: 530 mb (+11599kb) [00:00:46]
+// [Engine Memory]: 553 mb (+24289kb) [00:00:47]
+// [GUI Memory]: 54 mb (+6288kb) [00:00:47]
+// [Engine Memory]: 574 mb (+22417kb) [00:00:47]
+// [GUI Memory]: 61 mb (+6969kb) [00:00:48]
+// [Engine Memory]: 582 mb (+8179kb) [00:00:48]
+// [GUI Memory]: 66 mb (+5420kb) [00:00:48]
+// [Engine Memory]: 588 mb (+6664kb) [00:00:48]
+// [GUI Memory]: 70 mb (+3871kb) [00:00:48]
+// [GUI Memory]: 73 mb (+3935kb) [00:00:48]
+// [GUI Memory]: 78 mb (+5067kb) [00:00:49]
+// [Engine Memory]: 590 mb (+1302kb) [00:00:49]
+// [GUI Memory]: 83 mb (+5068kb) [00:00:49]
+// [Engine Memory]: 592 mb (+1875kb) [00:00:49]
+// [Engine Memory]: 598 mb (+7008kb) [00:00:49]
+// Tcl Message: open_project {C:\Users\JoãoMarcus\Desktop\HoleInTheWall_FINAL\HoleInTheWall\HoleInTheWall.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2014.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB (GUI used memory: 32 MB). Current time: 4/10/15 5:44:01 PM
+// Tcl Message: open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 945.359 ; gain = 154.703 
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Opening project 'C:\\Users\\JoãoMarcus\\Desktop\\HoleInTheWall_FINAL\\HoleInTheWall\\HoleInTheWall.xpr'"); // cm:O (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 602 mb (+3829kb) [00:00:53]
+// [Engine Memory]: 602 mb (+229kb) [00:00:53]
+// a:a (cg:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 611 mb (+9887kb) [00:00:55]
+// [Engine Memory]: 612 mb (+520kb) [00:00:59]
+// Elapsed time: 16 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ab:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// T:ad (cg:JFrame): Export Hardware for SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, T:ad)
+selectButton((HResource) null, "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, ac:JDialog)
+selectCheckBox(PAResourceOtoP.OldExportHardwareDialog_EXPORT_HARDWARE, "Export Hardware", false); // z:JCheckBox (JPanel:JComponent, T:ad): FALSE
+selectCheckBox(PAResourceOtoP.OldExportHardwareDialog_LAUNCH_SDK, "Launch SDK", true); // z:JCheckBox (JPanel:JComponent, T:ad): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, T:ad)
+// 'd' command handler elapsed time: 5 seconds
+dismissDialog("Export Hardware for SDK"); // T:ad (cg:JFrame)
+// cm:O (cg:JFrame):  Export Hardware for SDK : addNotify
+// Tcl Message: launch_sdk -workspace C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Users/JoãoMarcus/Desktop/HoleInTheWall_FINAL/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+dismissDialog("Export Hardware for SDK"); // cm:O (cg:JFrame)

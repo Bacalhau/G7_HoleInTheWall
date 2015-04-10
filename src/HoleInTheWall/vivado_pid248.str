@@ -1,0 +1,143 @@
+/*
+
+Vivado v2014.1 (64-bit)
+SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+Process ID: 248
+
+Current time: 	3/24/15 6:29:02 PM
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	E:/Xilinx/Vivado/2014.1/tps/win64/jre
+
+User name: 	JoãoMarcus
+User directory: C:/Vivadoprojects/HoleInTheWall9/HoleInTheWall9/HoleInTheWall
+User country: 	CA
+User language: 	en
+User locale: 	en_CA
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 384 mb
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 1s
+// TclEventType: START_PROGRESS_DIALOG
+// cm:O (cg:JFrame):  Opening project 'C:\Vivadoprojects\HoleInTheWall9\HoleInTheWall9\HoleInTheWall\HoleInTheWall.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PACKAGER_MESSAGE_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 448 MB (GUI used memory: 26 MB). Current time: 3/24/15 6:29:04 PM
+// TclEventType: PACKAGER_MESSAGE_RESET
+// [GUI Memory]: 28 mb (+27195kb) [00:00:20]
+// [Engine Memory]: 459 mb (+329370kb) [00:00:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 505 MB (GUI used memory: 23 MB). Current time: 3/24/15 6:29:19 PM
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 mb (+19962kb) [00:00:36]
+// [Engine Memory]: 525 mb (+69648kb) [00:00:36]
+// [Engine Memory]: 545 mb (+20959kb) [00:00:37]
+// [Engine Memory]: 554 mb (+9957kb) [00:00:37]
+// [Engine Memory]: 583 mb (+29847kb) [00:00:39]
+// [GUI Memory]: 52 mb (+5213kb) [00:00:39]
+// [Engine Memory]: 589 mb (+5844kb) [00:00:39]
+// [GUI Memory]: 53 mb (+829kb) [00:00:39]
+// [GUI Memory]: 64 mb (+11614kb) [00:00:40]
+// [GUI Memory]: 67 mb (+3317kb) [00:00:40]
+// [GUI Memory]: 73 mb (+5837kb) [00:00:40]
+// [Engine Memory]: 617 mb (+30023kb) [00:00:40]
+// [GUI Memory]: 79 mb (+6171kb) [00:00:40]
+// [GUI Memory]: 82 mb (+3535kb) [00:00:41]
+// Tcl Message: open_project {C:\Vivadoprojects\HoleInTheWall9\HoleInTheWall9\HoleInTheWall\HoleInTheWall.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall9/HoleInTheWall' since last save. 
+// HMemoryUtils.trashcanNow. Engine heap size: 618 MB (GUI used memory: 35 MB). Current time: 3/24/15 6:29:36 PM
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivadoprojects/HoleInTheWall9/HoleInTheWall9/IP'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2014.1/data/ip'. 
+// [Engine Memory]: 618 mb (+618kb) [00:00:42]
+// [Engine Memory]: 619 mb (+1744kb) [00:00:42]
+// Tcl Message: open_project: Time (s): cpu = 00:00:46 ; elapsed = 00:00:36 . Memory (MB): peak = 961.484 ; gain = 162.047 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 620 mb (+126kb) [00:00:44]
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog("Opening project 'C:\\Vivadoprojects\\HoleInTheWall9\\HoleInTheWall9\\HoleInTheWall\\HoleInTheWall.xpr'"); // cm:O (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 621 mb (+2007kb) [00:00:46]
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+// [Engine Memory]: 622 mb (+536kb) [00:00:47]
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+// [Engine Memory]: 628 mb (+6569kb) [00:00:48]
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ab:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// T:ad (cg:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox(PAResourceOtoP.OldExportHardwareDialog_EXPORT_HARDWARE, "Export Hardware", false); // z:JCheckBox (JPanel:JComponent, T:ad): FALSE
+selectCheckBox(PAResourceOtoP.OldExportHardwareDialog_LAUNCH_SDK, "Launch SDK", true); // z:JCheckBox (JPanel:JComponent, T:ad): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, T:ad)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, T:ad)
+// 'd' command handler elapsed time: 4 seconds
+dismissDialog("Export Hardware for SDK"); // T:ad (cg:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Vivadoprojects/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Vivadoprojects/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Vivadoprojects/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Vivadoprojects/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// cm:O (cg:JFrame):  Export Hardware for SDK : addNotify
+// [GUI Memory]: 82 mb (+129kb) [00:00:54]
+dismissDialog("Export Hardware for SDK"); // cm:O (cg:JFrame)
+// [GUI Memory]: 83 mb (+794kb) [00:06:50]
+// [GUI Memory]: 85 mb (+2121kb) [00:07:04]
+// [Engine Memory]: 652 mb (+24899kb) [00:08:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 652 MB (GUI used memory: 39 MB). Current time: 3/24/15 6:36:59 PM
+// [GUI Memory]: 87 mb (+1830kb) [00:15:00]
+// [GUI Memory]: 87 mb (+99kb) [00:21:05]
+// [GUI Memory]: 89 mb (+1965kb) [00:21:20]
+// [GUI Memory]: 90 mb (+1221kb) [00:21:35]
+// [GUI Memory]: 92 mb (+1962kb) [00:21:45]
+// [GUI Memory]: 93 mb (+1073kb) [00:22:00]
+// [GUI Memory]: 94 mb (+1066kb) [00:22:10]
+// [GUI Memory]: 95 mb (+874kb) [00:28:25]
+// [GUI Memory]: 96 mb (+1080kb) [00:28:40]
+// [GUI Memory]: 97 mb (+1080kb) [00:28:50]
+// [GUI Memory]: 99 mb (+2101kb) [00:29:05]
+// [GUI Memory]: 100 mb (+929kb) [00:35:15]
+// [GUI Memory]: 101 mb (+1932kb) [00:35:25]
+// [GUI Memory]: 103 mb (+1079kb) [00:35:40]
+// [GUI Memory]: 104 mb (+1038kb) [00:35:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 652 MB (GUI used memory: 56 MB). Current time: 3/24/15 7:07:00 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 652 MB (GUI used memory: 58 MB). Current time: 3/24/15 7:37:02 PM
+// [GUI Memory]: 104 mb (+114kb) [01:14:26]
+// [GUI Memory]: 105 mb (+1677kb) [01:14:37]
+// [GUI Memory]: 107 mb (+1840kb) [01:20:57]
+// [GUI Memory]: 108 mb (+967kb) [01:21:07]
+// [GUI Memory]: 110 mb (+1759kb) [01:21:22]
+// [GUI Memory]: 111 mb (+977kb) [01:21:32]
+// [GUI Memory]: 112 mb (+1882kb) [01:21:47]
+// [Engine Memory]: 653 mb (+1228kb) [01:23:52]
+// [Engine Memory]: 655 mb (+2416kb) [01:25:32]
+// [GUI Memory]: 113 mb (+593kb) [01:28:07]
+// [GUI Memory]: 114 mb (+1052kb) [01:28:22]
+// [GUI Memory]: 116 mb (+1765kb) [01:28:33]
+// [GUI Memory]: 117 mb (+1175kb) [01:28:47]
+// [GUI Memory]: 118 mb (+1342kb) [01:28:58]
+// [GUI Memory]: 119 mb (+699kb) [01:35:17]
+// [GUI Memory]: 120 mb (+1033kb) [01:35:28]
+// [GUI Memory]: 121 mb (+1904kb) [01:35:42]
+// [GUI Memory]: 122 mb (+1030kb) [01:35:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 655 MB (GUI used memory: 67 MB). Current time: 3/24/15 8:07:03 PM

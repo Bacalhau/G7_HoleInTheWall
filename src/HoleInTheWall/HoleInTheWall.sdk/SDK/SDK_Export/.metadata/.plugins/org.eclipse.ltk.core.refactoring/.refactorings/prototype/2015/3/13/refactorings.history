@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;prototype/src/helloworld.c&apos; to &apos;MicroblazeController&apos;" description="Rename resource &apos;helloworld.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/helloworld.c" name="MicroblazeController" stamp="1427205567299" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;prototype/src/MicroblazeController&apos; to &apos;MicroblazeController.c&apos;" description="Rename resource &apos;MicroblazeController&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/MicroblazeController" name="MicroblazeController.c" stamp="1427205578231" updateReferences="true"/>
+</session>

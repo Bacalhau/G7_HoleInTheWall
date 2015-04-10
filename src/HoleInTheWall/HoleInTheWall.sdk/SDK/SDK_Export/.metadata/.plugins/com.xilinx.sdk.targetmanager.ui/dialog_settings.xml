@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="hw_platform_0-bmmFile"/>
+	<item value="false" key="hw_platform_0-runResetZynq"/>
+	<item value="HoleInTheWall.bit" key="hw_platform_0-bitFile"/>
+	<item value="Local" key="hw_platform_0-target"/>
+	<item value="bootloop" key="hw_platform_0-microblaze_0-initElf"/>
+</section>

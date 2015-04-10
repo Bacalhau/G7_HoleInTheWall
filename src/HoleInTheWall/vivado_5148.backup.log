@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Fri Apr 03 12:12:23 2015
+# Process ID: 3352
+# Log file: C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/vivado.log
+# Journal file: C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Vivadoprojects\HoleInTheWall11\HoleInTheWall9\HoleInTheWall\HoleInTheWall.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall' since last save.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/UofT/Digital_Systems_Design/HoleInTheWall6', nor could it be found using path 'C:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall6'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/UofT/Digital_Systems_Design/HoleInTheWall6', nor could it be found using path 'C:/Users/Gustavo/UofT/Digital_Systems_Design/HoleInTheWall6'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2014.1/data/ip'.
+open_project: Time (s): cpu = 00:00:47 ; elapsed = 00:00:37 . Memory (MB): peak = 922.500 ; gain = 146.434
+launch_sdk -workspace C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Vivadoprojects/HoleInTheWall11/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 03 13:43:36 2015...

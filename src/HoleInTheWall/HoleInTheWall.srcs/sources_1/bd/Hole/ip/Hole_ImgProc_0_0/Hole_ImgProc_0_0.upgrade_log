@@ -1,0 +1,16 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.1 (win64) Build 881834 Fri Apr  4 14:15:54 MDT 2014
+| Date         : Mon Mar 23 22:11:45 2015
+| Host         : Gustavo running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Hole_ImgProc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Hole_ImgProc_0_0 from user:user:ImgProc:1.3 (Rev. 2) to user:user:ImgProc:1.4 (Rev. 2)
+

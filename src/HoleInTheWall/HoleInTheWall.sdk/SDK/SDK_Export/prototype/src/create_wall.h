@@ -1,0 +1,36 @@
+/*
+ * create_wall.h
+ *
+ *  Created on: 2015-3-10
+ *      Author: hy
+ */
+
+#ifndef CREATE_WALL_H_
+#define CREATE_WALL_H_
+
+//Definitions of the size of the image and screen
+#define IMG_SIZE 524288
+#define IMG_STEP 0x200000
+#define original_hole_width 160
+#define original_hole_height 240
+#define original_frame_width 640
+#define original_frame_height 480
+#define image_step 10
+
+int adjust_hole_height(int original_height,int level);
+int hole_position(int hole_size, int original_f_width,int rand_old);
+int hole_x_codinate(int max_width);
+int adjust_hole_width(int original_width,int level);
+// old
+int create_wall(unsigned int x,unsigned int y,unsigned int high,unsigned int width,unsigned int * wall,int hole_x,int hole_width,int hole_height);
+// new - 2 functions
+int create_wall_no_hole(unsigned int x,unsigned int y,unsigned int high,unsigned int width,unsigned int * wall);
+int create_hole(unsigned int x,unsigned int y,unsigned int high,unsigned int width,unsigned int * wall,int hole_x,int hole_width,int hole_height);
+int image_black(unsigned int * img);
+unsigned int pixel32_color8(unsigned int pixel, int select);
+int initial_screen(unsigned int *screen);
+int screen_color(unsigned int *screen,int color);
+// int erase_memory(unsigned int *begin_mem,int images); // OLD
+int erase_memory(unsigned int *begin_mem, unsigned int *ImgProcBlock, int images);
+
+#endif /* CREATE_WALL_H_ */

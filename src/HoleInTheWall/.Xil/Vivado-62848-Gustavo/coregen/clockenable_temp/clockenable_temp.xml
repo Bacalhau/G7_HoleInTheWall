@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>customized_ip</spirit:library>
+  <spirit:name>clockenable_temp</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:model/>
+  <spirit:description>intf_clock_enable_v1_0</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>PortWidth</spirit:name>
+      <spirit:displayName>Port Width</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.PortWidth" spirit:order="300">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>PHASE</spirit:name>
+      <spirit:displayName>Phase</spirit:displayName>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.PHASE" spirit:order="200">0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>FREQ_HZ</spirit:name>
+      <spirit:displayName>Frequency</spirit:displayName>
+      <spirit:value spirit:format="float" spirit:resolve="user" spirit:id="PARAM_VALUE.FREQ_HZ" spirit:order="100">100000000</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">clockenable_temp</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Hidden">artix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">kintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">kintex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">virtex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">virtex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">zynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">artix7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">aartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">qvirtex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">qkintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">qvirtex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">qkintex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">qartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">qartix7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">qzynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">azynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">olyevalarch</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">virtexu</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">zynq7000</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Hidden">kintexu</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>&quot;&quot;</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>intf_clock_enable_v1_0</xilinx:displayName>
+      <xilinx:designToolContexts>
+        <xilinx:designToolContext>IPI</xilinx:designToolContext>
+      </xilinx:designToolContexts>
+      <xilinx:coreRevision>1</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2013-07-29T22:51:02Z</xilinx:coreCreationDateTime>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="nopcore"/>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2013.3.0</xilinx:xilinxVersion>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

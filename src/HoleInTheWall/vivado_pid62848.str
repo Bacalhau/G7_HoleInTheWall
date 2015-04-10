@@ -1,0 +1,1007 @@
+/*
+
+Vivado v2014.1 (64-bit)
+SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+Process ID: 62848
+
+Current time: 	3/31/15 3:01:55 PM
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.1/tps/win64/jre
+
+User name: 	Gustavo
+User directory: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall
+User country: 	CA
+User language: 	en
+User locale: 	en_CA
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 374 mb
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 1s
+// TclEventType: START_PROGRESS_DIALOG
+// cm:O (cg:JFrame):  Opening project 'C:\Users\Gustavo\Desktop\HoleInTheWall9\HoleInTheWall9\HoleInTheWall\HoleInTheWall.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PACKAGER_MESSAGE_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 434 MB (GUI used memory: 26 MB). Current time: 3/31/15 3:01:57 PM
+// TclEventType: PACKAGER_MESSAGE_RESET
+// [GUI Memory]: 29 mb (+27686kb) [00:00:20]
+// [Engine Memory]: 472 mb (+343575kb) [00:00:20]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 503 MB (GUI used memory: 24 MB). Current time: 3/31/15 3:02:12 PM
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 mb (+20474kb) [00:00:30]
+// [Engine Memory]: 522 mb (+52654kb) [00:00:30]
+// [Engine Memory]: 544 mb (+22765kb) [00:00:31]
+// [GUI Memory]: 49 mb (+505kb) [00:00:31]
+// [Engine Memory]: 551 mb (+7565kb) [00:00:31]
+// [GUI Memory]: 54 mb (+5169kb) [00:00:33]
+// [Engine Memory]: 585 mb (+34922kb) [00:00:33]
+// [GUI Memory]: 54 mb (+828kb) [00:00:33]
+// [Engine Memory]: 591 mb (+6598kb) [00:00:33]
+// [GUI Memory]: 62 mb (+7457kb) [00:00:33]
+// [Engine Memory]: 592 mb (+1167kb) [00:00:33]
+// [GUI Memory]: 67 mb (+5800kb) [00:00:33]
+// [GUI Memory]: 71 mb (+3734kb) [00:00:34]
+// [GUI Memory]: 75 mb (+4432kb) [00:00:34]
+// [GUI Memory]: 81 mb (+6205kb) [00:00:34]
+// [GUI Memory]: 86 mb (+5359kb) [00:00:34]
+// [Engine Memory]: 593 mb (+937kb) [00:00:34]
+// [Engine Memory]: 594 mb (+1691kb) [00:00:34]
+// [GUI Memory]: 87 mb (+622kb) [00:00:34]
+// Tcl Message: open_project {C:\Users\Gustavo\Desktop\HoleInTheWall9\HoleInTheWall9\HoleInTheWall\HoleInTheWall.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/IP'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.1/data/ip'. 
+// [Engine Memory]: 595 mb (+237kb) [00:00:35]
+// Tcl Message: open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:30 . Memory (MB): peak = 924.949 ; gain = 132.004 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 612 mb (+18284kb) [00:00:36]
+dismissDialog("Opening project 'C:\\Users\\Gustavo\\Desktop\\HoleInTheWall9\\HoleInTheWall9\\HoleInTheWall\\HoleInTheWall.xpr'"); // cm:O (cg:JFrame)
+// [Engine Memory]: 616 mb (+4276kb) [00:00:36]
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 616 MB (GUI used memory: 34 MB). Current time: 3/31/15 3:02:27 PM
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v)]", 1); // t:f (w:JPanel, cg:JFrame)
+// [Engine Memory]: 618 mb (+1363kb) [00:01:00]
+// [Engine Memory]: 619 mb (+1622kb) [00:01:00]
+// [Engine Memory]: 632 mb (+13783kb) [00:01:02]
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v)]", 1); // t:f (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v)]", 1, false, false, false, false, true); // t:f (w:JPanel, cg:JFrame) - DOUBLE CLICK
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L:a (Workspace:JPanel, cg:JFrame)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L:a (Workspace:JPanel, cg:JFrame)
+// [GUI Memory]: 87 mb (+269kb) [00:01:12]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v)]", 1); // t:f (w:JPanel, cg:JFrame)
+// [Engine Memory]: 632 mb (+4kb) [00:01:15]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceU - debounce (debounce.v)]", 2); // t:f (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceU - debounce (debounce.v)]", 2, false, false, false, false, true); // t:f (w:JPanel, cg:JFrame) - DOUBLE CLICK
+// [Engine Memory]: 633 mb (+421kb) [00:01:15]
+// [Engine Memory]: 633 mb (+172kb) [00:01:15]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L:a (Workspace:JPanel, cg:JFrame)
+// [Engine Memory]: 634 mb (+1024kb) [00:01:20]
+// [GUI Memory]: 91 mb (+4863kb) [00:01:33]
+// [Engine Memory]: 634 mb (+8kb) [00:01:40]
+// Elapsed time: 25 seconds
+selectCodeEditor("debounce.v", 3, 179); // aU:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 95 mb (+3941kb) [00:01:50]
+// Elapsed time: 19 seconds
+selectCodeEditor("debounce.v", 94, 145); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 29, 103); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 18, 107); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 39, 95); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 93, 166); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 8, 226); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("debounce.v", 20, 228); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 160, 471); // aU:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB (GUI used memory: 44 MB). Current time: 3/31/15 3:04:22 PM
+// [Engine Memory]: 637 mb (+2945kb) [00:02:35]
+// Elapsed time: 10 seconds
+selectCodeEditor("debounce.v", 109, 254); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 637 mb (+65kb) [00:02:56]
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 177, 195); // aU:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("debounce.v", 52, 192); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 55, 192, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+// [Engine Memory]: 652 mb (+15605kb) [00:03:17]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("debounce.v", 67, 158); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 67, 158, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 154, 229); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 186, 229); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 166, 322); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 172, 352); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 177, 485); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 188, 456); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 28, 459); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 27, 435); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 87, 312); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 115, 314); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 83, 174); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 128, 146); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 107 seconds
+selectCodeEditor("HoleInTheWall.v", 137, 164); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 151, 148); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 151, 148, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+selectCodeEditor("HoleInTheWall.v", 221, 157); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 151, 143); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 150, 143, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+selectCodeEditor("HoleInTheWall.v", 135, 141); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 134, 141, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+selectCodeEditor("HoleInTheWall.v", 133, 277); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 131, 418); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 133, 452); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 130, 484); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 145, 120); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 195, 116); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 143, 108); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 141, 246); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 139, 379); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 136, 412); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 144, 451); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 142, 298); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 138, 164); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 140, 24); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L:a (Workspace:JPanel, cg:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:R (v:w, cg:JFrame)
+// am:bD (cg:JFrame): OOC module run(s) is/are Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, am:bD)
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("OOC module run(s) is/are Out-of-date"); // am:bD (cg:JFrame)
+dismissDialog("OOC module run(s) is/are Out-of-date"); // am:bD (cg:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run debounce_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// am:bD (cg:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, am:bD)
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // am:bD (cg:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cm:O (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, cm:O)
+// 'q' command handler elapsed time: 16 seconds
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 654 mb (+2220kb) [00:07:25]
+// Tcl Message: [Tue Mar 31 15:09:12 2015] Launched debounce_synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/debounce_synth_1/runme.log [Tue Mar 31 15:09:12 2015] Launched synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cm:O (cg:JFrame)
+// [GUI Memory]: 96 mb (+834kb) [00:07:33]
+// TclEventType: RUN_FAILED
+// [Engine Memory]: 655 mb (+1134kb) [00:08:11]
+// Elapsed time: 57 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 6); // w:R (v:w, cg:JFrame)
+// cm:O (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.srcs/sources_1/bd/Hole/Hole.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:microblaze:9.3 - microblaze_0 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// HMemoryUtils.trashcanNow. Engine heap size: 657 MB (GUI used memory: 43 MB). Current time: 3/31/15 3:10:12 PM
+// [Engine Memory]: 657 mb (+2654kb) [00:08:25]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, cm:O)
+// [Engine Memory]: 658 mb (+454kb) [00:08:26]
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc 
+// [Engine Memory]: 658 mb (+499kb) [00:08:26]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:xlconcat:2.0 - microblaze_0_xlconcat Adding component instance block -- xilinx.com:ip:mdm:3.1 - mdm_1 
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // z:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+// TclEventType: RSB_PROPERTY_CHANGE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // z:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_1 Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- user:user:myip_song:1.0 - myip_song_0 
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- user:user:I2C_Config:1.0 - I2C_Config_0 Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0 
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_display 
+// [Engine Memory]: 665 mb (+6909kb) [00:08:35]
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_push_buttons 
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:videoin:1.0 - videoin_0 Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:3.0 - v_vid_in_axi4s_0 
+// TclEventType: PARAM_UPDATED
+// [Engine Memory]: 670 mb (+4997kb) [00:08:38]
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0 
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_tft:2.0 - axi_tft_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mig_7series:2.0 - mig_7series_0 
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB (GUI used memory: 43 MB). Current time: 3/31/15 3:10:32 PM
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_81M 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- user:user:ImgProc:1.4 - ImgProc_0 
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: PARAM_UPDATED
+// [Engine Memory]: 699 mb (+31338kb) [00:08:50]
+// TclEventType: PARAM_UPDATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axis_clock_converter:1.1 - auto_cc Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - auto_ss_k 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10 Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10 Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 760 mb (+63619kb) [00:09:07]
+// [Engine Memory]: 765 mb (+4956kb) [00:09:07]
+// Tcl Message: Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - lmb_bram Successfully read diagram <Hole> from BD file <C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.srcs/sources_1/bd/Hole/Hole.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: PACKAGER_MESSAGE_RESET
+// [Engine Memory]: 899 mb (+140877kb) [00:09:12]
+// [Engine Memory]: 899 mb (+200kb) [00:09:12]
+// [Engine Memory]: 905 mb (+6209kb) [00:09:12]
+// [Engine Memory]: 906 mb (+561kb) [00:09:12]
+// [Engine Memory]: 914 mb (+9031kb) [00:09:13]
+// [Engine Memory]: 930 mb (+16187kb) [00:09:13]
+// [Engine Memory]: 932 mb (+1761kb) [00:09:13]
+// [Engine Memory]: 935 mb (+3395kb) [00:09:13]
+// [Engine Memory]: 943 mb (+8806kb) [00:09:13]
+// [Engine Memory]: 956 mb (+13160kb) [00:09:13]
+// [Engine Memory]: 966 mb (+10465kb) [00:09:14]
+// [Engine Memory]: 966 mb (+245kb) [00:09:14]
+// [GUI Memory]: 96 mb (+38kb) [00:09:14]
+// [GUI Memory]: 99 mb (+2750kb) [00:09:15]
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 966 MB (GUI used memory: 47 MB). Current time: 3/31/15 3:11:04 PM
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1285.492 ; gain = 302.031 
+// Elapsed time: 47 seconds
+dismissDialog("Open Block Design"); // cm:O (cg:JFrame)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // Q:L (Workspace:JPanel, cg:JFrame)
+// [Engine Memory]: 984 mb (+19116kb) [00:09:22]
+// Elapsed time: 65 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // Q:L (Workspace:JPanel, cg:JFrame)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // Q:L (Workspace:JPanel, cg:JFrame)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // Q:L (Workspace:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14); // w:R (v:w, cg:JFrame)
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run debounce_synth_1 
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cm:O (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 31 15:12:31 2015] Launched debounce_synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/debounce_synth_1/runme.log [Tue Mar 31 15:12:31 2015] Launched synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cm:O (cg:JFrame)
+// TclEventType: RUN_FAILED
+// Elapsed time: 62 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // Q:L (Workspace:JPanel, cg:JFrame)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // Q:L (Workspace:JPanel, cg:JFrame)
+// [GUI Memory]: 99 mb (+381kb) [00:11:52]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceL - debounce (debounce.v)]", 4); // t:f (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceL - debounce (debounce.v)]", 4); // t:f (w:JPanel, cg:JFrame)
+// [GUI Memory]: 101 mb (+1804kb) [00:11:52]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a:JButton (JPanel:JComponent, cg:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_STATUS_MESSAGES, (String) null, false); // z:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // z:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14); // w:R (v:w, cg:JFrame)
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run debounce_synth_1 
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cm:O (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, cm:O)
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 31 15:13:55 2015] Launched debounce_synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/debounce_synth_1/runme.log [Tue Mar 31 15:13:55 2015] Launched synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cm:O (cg:JFrame)
+// TclEventType: RUN_FAILED
+// [GUI Memory]: 103 mb (+1858kb) [00:12:52]
+// Elapsed time: 50 seconds
+selectButton(PAResourceItoN.NotificationManager_RUN_FAILED, "debounce_synth_1 failed"); // k:h (JPanel:JComponent, ResizableWindow:JWindow)
+// PAPropertyPanels.initPanels (debounce_synth_1) elapsed time: 0.3s
+selectTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "debounce_synth_1 ; xc7a100tcsg324-1 ; debounce ; Vivado Synthesis Defaults (Vivado Synthesis 2014) ; synth_design ERROR ; 0 ; Tue Mar 31 15:13:54 EDT 2015 ; 00:00:44 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 4, "debounce_synth_1", 0); // X:al (JViewport:JComponent, cg:JFrame)
+// [GUI Memory]: 103 mb (+58kb) [00:13:02]
+selectTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "debounce_synth_1 ; xc7a100tcsg324-1 ; debounce ; Vivado Synthesis Defaults (Vivado Synthesis 2014) ; synth_design ERROR ; 0 ; Tue Mar 31 15:13:54 EDT 2015 ; 00:00:44 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults", 4, "debounce_synth_1", 0, false, false, false, true, false); // X:al (JViewport:JComponent, cg:JFrame) - POPUP TRIGGER
+selectMenuItem(PAResourceCommand.PACommandNames_VIEW_RUN_MESSAGES, "Display Run Messages"); // ab:JMenuItem (af:JPopupMenu, Popup:JWindow)
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Synthesis Run Properties"); // ah:DockableFrame (FrameContainer:JideTabbedPane, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xc7a100t'. Please run the Vivado License Manager for assistance in determining. which features and devices are licensed for your system.. ]", 2); // Q:f (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+unMaximizeFrame(RDIResource.RDIViews_PROPERTIES, "Synthesis Run Properties"); // ah:DockableFrame (FrameContainer:JideTabbedPane, cg:JFrame)
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14); // w:R (v:w, cg:JFrame)
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run debounce_synth_1 
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// [GUI Memory]: 108 mb (+6187kb) [00:13:56]
+// cm:O (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 31 15:15:44 2015] Launched debounce_synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/debounce_synth_1/runme.log [Tue Mar 31 15:15:44 2015] Launched synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/synth_1/runme.log 
+// [GUI Memory]: 114 mb (+5799kb) [00:13:57]
+dismissDialog("Starting Design Runs"); // cm:O (cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// [Engine Memory]: 985 mb (+1028kb) [00:14:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 988 MB (GUI used memory: 61 MB). Current time: 3/31/15 3:16:42 PM
+// Elapsed time: 58 seconds
+selectButton(PAResourceItoN.NotificationManager_CLOSE, (String) null); // j:JideButton (JPanel:JComponent, ResizableWindow:JWindow)
+// [Engine Memory]: 989 mb (+4427kb) [00:14:56]
+// [Engine Memory]: 993 mb (+3858kb) [00:15:02]
+// TclEventType: RUN_COMPLETED
+// N:am (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 38 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:am)
+// cm:O (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 31 15:17:22 2015] Launched impl_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cm:O (cg:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// ay:a (cg:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 63 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ay:a)
+dismissDialog("Launch Run Critical Messages"); // ay:a (cg:JFrame)
+// [Engine Memory]: 998 mb (+5697kb) [00:17:05]
+// [GUI Memory]: 116 mb (+2189kb) [00:18:50]
+// [GUI Memory]: 117 mb (+1156kb) [00:20:13]
+// [Engine Memory]: 1,003 mb (+4542kb) [00:21:52]
+// [GUI Memory]: 117 mb (+122kb) [00:22:50]
+// [GUI Memory]: 122 mb (+5094kb) [00:22:58]
+// [GUI Memory]: 124 mb (+2141kb) [00:24:22]
+// [GUI Memory]: 126 mb (+1934kb) [00:25:32]
+// TclEventType: RUN_COMPLETED
+// N:am (cg:JFrame): Implementation Completed: addNotify
+// Elapsed time: 664 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, N:am)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:am)
+dismissDialog("Implementation Completed"); // N:am (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// [GUI Memory]: 130 mb (+3815kb) [00:27:45]
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// cm:O (cg:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (debounce_synth_1) elapsed time: 0.2s
+// Tcl Message: [Tue Mar 31 15:29:33 2015] Launched impl_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/impl_1/runme.log 
+// [Engine Memory]: 1,005 mb (+2670kb) [00:27:46]
+dismissDialog("Generate Bitstream"); // cm:O (cg:JFrame)
+// [Engine Memory]: 1,005 mb (+86kb) [00:27:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,008 MB (GUI used memory: 79 MB). Current time: 3/31/15 3:29:37 PM
+// [Engine Memory]: 1,008 mb (+2871kb) [00:28:05]
+// TclEventType: RUN_COMPLETED
+// N:am (cg:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 133 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:am)
+// cm:O (cg:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,064 MB (GUI used memory: 78 MB). Current time: 3/31/15 3:31:52 PM
+// [Engine Memory]: 1,187 mb (+187576kb) [00:30:10]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 1,348 MB (GUI used memory: 78 MB). Current time: 3/31/15 3:32:12 PM
+// [Engine Memory]: 1,421 mb (+245600kb) [00:30:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,763 MB (GUI used memory: 78 MB). Current time: 3/31/15 3:32:27 PM
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// [Engine Memory]: 1,830 mb (+428511kb) [00:30:55]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,835 MB (GUI used memory: 78 MB). Current time: 3/31/15 3:32:47 PM
+// [Engine Memory]: 1,835 mb (+5599kb) [00:31:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,835 MB (GUI used memory: 78 MB). Current time: 3/31/15 3:32:48 PM
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,841 mb (+5935kb) [00:31:01]
+// [Engine Memory]: 1,842 mb (+1200kb) [00:31:01]
+// [GUI Memory]: 135 mb (+5099kb) [00:31:02]
+// [Engine Memory]: 1,978 mb (+142946kb) [00:31:02]
+// [Engine Memory]: 1,994 mb (+15839kb) [00:31:03]
+// [Engine Memory]: 1,994 mb (+294kb) [00:31:03]
+// [Engine Memory]: 1,994 mb (+200kb) [00:31:03]
+// [Engine Memory]: 2,004 mb (+10862kb) [00:31:03]
+// RouteApi.loadEngineXgd elapsed time: 2.4s
+// [GUI Memory]: 135 mb (+235kb) [00:31:04]
+// [GUI Memory]: 138 mb (+3673kb) [00:31:04]
+// [GUI Memory]: 139 mb (+963kb) [00:31:04]
+// [GUI Memory]: 141 mb (+2127kb) [00:31:04]
+// [GUI Memory]: 142 mb (+481kb) [00:31:04]
+// [GUI Memory]: 143 mb (+963kb) [00:31:04]
+// [Engine Memory]: 2,010 mb (+5464kb) [00:31:04]
+// [Engine Memory]: 2,010 mb (+12kb) [00:31:04]
+// [Engine Memory]: 2,010 mb (+45kb) [00:31:04]
+// [Engine Memory]: 2,012 mb (+2121kb) [00:31:04]
+// [Engine Memory]: 2,012 mb (+208kb) [00:31:04]
+// [Engine Memory]: 2,012 mb (+385kb) [00:31:04]
+// [Engine Memory]: 2,013 mb (+487kb) [00:31:04]
+// [Engine Memory]: 2,014 mb (+950kb) [00:31:04]
+// [Engine Memory]: 2,014 mb (+90kb) [00:31:04]
+// [GUI Memory]: 143 mb (+42kb) [00:31:04]
+// [GUI Memory]: 144 mb (+930kb) [00:31:04]
+// [GUI Memory]: 144 mb (+930kb) [00:31:04]
+// [GUI Memory]: 145 mb (+930kb) [00:31:04]
+// [GUI Memory]: 146 mb (+930kb) [00:31:04]
+// [GUI Memory]: 147 mb (+930kb) [00:31:04]
+// [GUI Memory]: 148 mb (+930kb) [00:31:04]
+// [GUI Memory]: 149 mb (+1507kb) [00:31:04]
+// [Engine Memory]: 2,018 mb (+5021kb) [00:31:04]
+// [Engine Memory]: 2,018 mb (+40kb) [00:31:04]
+// [Engine Memory]: 2,021 mb (+2707kb) [00:31:04]
+// [Engine Memory]: 2,021 mb (+20kb) [00:31:04]
+// [GUI Memory]: 155 mb (+5435kb) [00:31:05]
+// [Engine Memory]: 2,022 mb (+741kb) [00:31:05]
+// [Engine Memory]: 2,026 mb (+3915kb) [00:31:06]
+// Device: addNotify
+// Xgd.load filename: C:/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 6.3s
+// [GUI Memory]: 166 mb (+11711kb) [00:31:07]
+// [Engine Memory]: 2,054 mb (+29478kb) [00:31:07]
+// RouteApi::initRouteStorage elapsed time: 10.1s
+// [Engine Memory]: 2,060 mb (+6148kb) [00:31:11]
+// PAPropertyPanels.initPanels (debounce_synth_1) elapsed time: 0.2s
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 604 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2014.1 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.srcs/sources_1/bd/Hole/ip/Hole_mdm_1_0/Hole_mdm_1_0.xdc:50] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2071.668 ; gain = 438.848 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.srcs/sources_1/bd/Hole/ip/Hole_clk_wiz_1_0/Hole_clk_wiz_1_0.xdc:56] 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2114.199 ; gain = 25.629 
+// Tcl Message: Restoring placement. Restored 6147 out of 6147 XDEF sites from archive | CPU: 11.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s). 
+// Tcl Message: Generating merged BMM file for the design top 'Hole_wrapper'... 
+// [GUI Memory]: 180 mb (+14432kb) [00:31:12]
+// RouteApi.initDelayMediator elapsed time: 0.3s
+// ExpRunCommands.openImplResults elapsed time: 73.1s
+// Tcl Message: open_run: Time (s): cpu = 00:01:33 ; elapsed = 00:01:13 . Memory (MB): peak = 2405.375 ; gain = 1070.328 
+// [Engine Memory]: 2,067 mb (+7716kb) [00:31:12]
+// [Engine Memory]: 2,068 mb (+1032kb) [00:31:12]
+// 'dk' command handler elapsed time: 73 seconds
+// Device view-level: 0.0
+// [GUI Memory]: 180 mb (+825kb) [00:31:13]
+// [GUI Memory]: 181 mb (+423kb) [00:31:13]
+// [GUI Memory]: 181 mb (+423kb) [00:31:13]
+// [GUI Memory]: 182 mb (+423kb) [00:31:13]
+// [GUI Memory]: 182 mb (+423kb) [00:31:13]
+// [GUI Memory]: 182 mb (+423kb) [00:31:13]
+// [GUI Memory]: 183 mb (+423kb) [00:31:13]
+// [GUI Memory]: 183 mb (+423kb) [00:31:13]
+// [GUI Memory]: 190 mb (+6987kb) [00:31:13]
+// R:a (cg:JFrame): Critical Messages: addNotify
+// [Engine Memory]: 2,069 mb (+1073kb) [00:31:14]
+// Elapsed time: 74 seconds
+dismissDialog("Open Implemented Design"); // cm:O (cg:JFrame)
+// [Engine Memory]: 2,069 mb (+548kb) [00:31:15]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, R:a)
+// [GUI Memory]: 191 mb (+1560kb) [00:31:16]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ab:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// T:ad (cg:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox(PAResourceOtoP.OldExportHardwareDialog_LAUNCH_SDK, "Launch SDK", true); // z:JCheckBox (JPanel:JComponent, T:ad): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, T:ad)
+// 'd' command handler elapsed time: 4 seconds
+selectButton((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, ac:JDialog)
+dismissDialog("Export Hardware for SDK"); // T:ad (cg:JFrame)
+// cm:O (cg:JFrame):  Export Hardware for SDK : addNotify
+// Tcl Message: export_hardware [get_files C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.srcs/sources_1/bd/Hole/Hole.bd] [get_runs impl_1] -bitstream 
+// Tcl Message: Exporting to file C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml 
+// Tcl Message: INFO: [BD 41-436] exporting bit file 'C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/impl_1/HoleInTheWall.bit'... 
+// Tcl Message: launch_sdk -bit C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/HoleInTheWall.bit -workspace C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export -hwspec C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.sdk/SDK/SDK_Export/hw/Hole.xml 
+// [Engine Memory]: 2,082 mb (+13664kb) [00:31:26]
+// [GUI Memory]: 193 mb (+1650kb) [00:31:26]
+// [GUI Memory]: 194 mb (+1474kb) [00:31:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,082 MB (GUI used memory: 139 MB). Current time: 3/31/15 3:33:15 PM
+dismissDialog("Export Hardware for SDK"); // cm:O (cg:JFrame)
+// [GUI Memory]: 195 mb (+763kb) [00:41:38]
+// Elapsed time: 612 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cg:JFrame)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ah:DockableFrame (FrameContainer:JideTabbedPane, cg:JFrame)
+// PAPropertyPanels.initPanels (debounce.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceL - debounce (debounce.v)]", 4); // t:f (w:JPanel, cg:JFrame)
+// [GUI Memory]: 196 mb (+1095kb) [00:41:43]
+// [GUI Memory]: 197 mb (+898kb) [00:41:43]
+// [GUI Memory]: 197 mb (+2kb) [00:41:43]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceL - debounce (debounce.v)]", 4, false, false, false, false, true); // t:f (w:JPanel, cg:JFrame) - DOUBLE CLICK
+selectCodeEditor("debounce.v", 160, 205); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceC - debounce (debounce.v)]", 6); // t:f (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceC - debounce (debounce.v)]", 6, false, false, false, false, true); // t:f (w:JPanel, cg:JFrame) - DOUBLE CLICK
+// [GUI Memory]: 200 mb (+3734kb) [00:42:09]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v)]", 1); // t:f (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v)]", 1, false, false, false, false, true); // t:f (w:JPanel, cg:JFrame) - DOUBLE CLICK
+// [GUI Memory]: 201 mb (+341kb) [00:42:16]
+// [GUI Memory]: 202 mb (+969kb) [00:42:16]
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v)]", 1); // t:f (w:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HoleInTheWall (HoleInTheWall.v), btn_debounceD - debounce (debounce.v)]", 3); // t:f (w:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// [GUI Memory]: 202 mb (+119kb) [00:56:54]
+// [GUI Memory]: 205 mb (+3557kb) [00:57:09]
+// Elapsed time: 1126 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // J:L (Workspace:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,082 MB (GUI used memory: 145 MB). Current time: 3/31/15 4:03:24 PM
+// Elapsed time: 465 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 156, 180); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 159, 180, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+selectCodeEditor("HoleInTheWall.v", 195, 193); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 195, 193, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+// Elapsed time: 25 seconds
+selectCodeEditor("HoleInTheWall.v", 158, 173); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("debounce.v", 137, 155); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 141, 141); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 142, 141, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+selectCodeEditor("debounce.v", 147, 209); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("debounce.v", 147, 209, false, false, false, false, true); // aU:J (JPanel:JComponent, cg:JFrame) - DOUBLE CLICK
+// Elapsed time: 18 seconds
+selectButton(PAResourceCommand.PACommandNames_PROPERTIES_WINDOW, "view_properties"); // u:JideButton (CommandBar:DockableBar, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 169, 199); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("HoleInTheWall.v", 161, 43); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 162, 115); // aU:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debounce.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HoleInTheWall.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 188, 141); // aU:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("HoleInTheWall.v", 196, 113); // aU:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 29 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // J:L (Workspace:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:R (v:w, cg:JFrame)
+// am:bD (cg:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, am:bD)
+// cm:O (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // am:bD (cg:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cm:O (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 31 16:14:10 2015] Launched synth_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/synth_1/runme.log 
+// 'q' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // cm:O (cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// N:am (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 45 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:am)
+// cm:O (cg:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 31 16:14:57 2015] Launched impl_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cm:O (cg:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// ay:a (cg:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 67 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ay:a)
+dismissDialog("Launch Run Critical Messages"); // ay:a (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// N:am (cg:JFrame): Implementation Completed: addNotify
+// Elapsed time: 663 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, N:am)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:am)
+dismissDialog("Implementation Completed"); // N:am (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// [GUI Memory]: 212 mb (+7612kb) [01:25:23]
+// cm:O (cg:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 31 16:27:11 2015] Launched impl_1... Run output will be captured here: C:/Users/Gustavo/Desktop/HoleInTheWall9/HoleInTheWall9/HoleInTheWall/HoleInTheWall.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cm:O (cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// N:am (cg:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 139 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, N:am)
+// [GUI Memory]: 216 mb (+4145kb) [01:27:44]
+dismissDialog("Bitstream Generation Completed"); // N:am (cg:JFrame)
+// [GUI Memory]: 220 mb (+3242kb) [01:30:18]
